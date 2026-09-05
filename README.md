@@ -22,7 +22,7 @@ STM32 / ESP32 嵌入式开发代码归档，集中保存个人硬件实验、外
 3. 修改 Wi‑Fi、设备密钥等配置时使用本地文件，禁止提交真实凭据。
 4. 烧录后先通过串口日志确认启动状态，再连接电机或外设。
 
-## 目录建议
+## 已提供示例`n`n| 示例 | 说明 |`n| --- | --- |`n| `examples/esp32_blink` | ESP32 板载 LED 心跳灯 |`n| `examples/esp32_wifi_scan` | 扫描附近 Wi‑Fi 并输出信号强度 |`n`n## 目录建议
 
 ```text
 stm32/       # STM32 示例
@@ -40,3 +40,4 @@ examples/    # 最小可运行示例
 ## License
 
 MIT License
+
